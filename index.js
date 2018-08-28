@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import Demo from './App';
 
-AppRegistry.registerComponent('magicmoving', () => App);
+AppRegistry.registerComponent('magicmoving', () => Demo);
