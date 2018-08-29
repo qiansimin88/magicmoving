@@ -24,6 +24,7 @@ export default class Demo extends Component {
       <View>
         <MagicMoving
           data = { this._allData }
+          itemStyle = { styles.item }
         />
       </View>
     )
@@ -31,4 +32,10 @@ export default class Demo extends Component {
 }
 
 const styles = StyleSheet.create({
+  item: {
+    marginTop: 20,
+    height: 100,
+    marginHorizontal: 20,
+    backgroundColor: '#FF2D2D'
+  }
 });
