@@ -105,7 +105,6 @@ export default class MagicMoving extends Component {
                     console.log('全部完成')
                 } )
             } )
-             console.log( this._popupLayerStyle );
         })
     })
   }
