@@ -52,7 +52,7 @@ export default class MagicMoving extends Component {
 
   //浮层关闭通知
   _onRequestClose  = () => {
-    console.log( '浮层关闭' )
+    console.log( '浮层关闭' );
   }
 
   //处理动画的插值
